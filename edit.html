@@ -41,36 +41,46 @@
    </div>
    <!-- nav-end  -->
 
+   <div class="profile">
+       <div class="profile-form bg-dark text-white">
+            <h3 class="form-title ">Create Your Profile</h3>
+            <form>
 
- <div class="profile-edit">
-   <h3 class="text-center">profile-edit</h3>
-   <form action="">
 
-      <div>
-         <label for="">name</label>
-         <input class="nmbox" type="text">
-      </div>
 
-      <div class="picbox">
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Full Name">
+                </div>
 
-         <!-- <div class="picdiv">
-            <img src="" alt="">
-         </div> -->
 
-            <h4 class="nm">Bio</h4>
-            <input class="biobox" type="text">
 
-            <h4 class="nm pt-3">Location</h4>
-            <textarea name="" id=""></textarea>
+                <div class="mb-3">
+                    <textarea class="form-control" id="bio" rows="3" placeholder="Bio"></textarea>
+                </div>
 
-                <div>
-                  <button class="picbtn2">Submit</button>
-              </div>
 
-      </div>
 
-   </form>
- </div>
+                <div class="mb-3">
+                    <input class="form-control" type="file" id="profilePic" accept="image/*">
+                </div>
+
+
+
+
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="location" placeholder="Location">
+                </div>
+
+
+
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="insta-btn">Save Profile</button>
+                    <a href="post_list.html" class="btn btn-light border">Cancel</a>
+                </div>
+            </form>
+        </div>
+   </div>
 
 </div>
 

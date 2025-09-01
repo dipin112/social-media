@@ -142,9 +142,10 @@ body{
 
 /* profile-start */
 
-.profile{
+.profile-main{
   display: flex;
   justify-content: space-around;
+  margin-left: 30%;
 }
 
 .profile-img{
@@ -152,63 +153,40 @@ body{
   height: 150px;
 }
 
-.profile-edit{
-  border: 1px solid white;
-  border-radius: 3%;
-  width: 50%;
-  height: 650px;
-  background-color: white;
-  margin-left: 50%;
-  margin-top: 2%;
+.profile{
+  margin-left: 30%;
 }
 
- .picdiv{
-       width: 10%;
-       border: 1px solid black;
-       height: 70px;
-       margin-left: 40px;
-       margin-top: 20px;
-       border-radius: 100px;
-    }
+.profile-form {
+            max-width: 400px;
+            margin:  auto;
+            padding: 30px;
+            background: #fff;
+            border: 1px solid #dbdbdb;
+            border-radius: 12px;
+        }
 
-     .picdiv > img{
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
+        .form-title {
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: 600;
+            font-size: 22px;
+        }
 
-   .picbtn{
-        margin-left: 170px;
-        margin-top: 40px;
-        width: 60%;
-        height: 40px;
-        background-color: rgb(61, 61, 207);
-        color: white;
-        border-radius: 10px;
-        border: 1px solid  rgb(61, 61, 207);
-    }
+        .insta-btn {
+            background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+            border: none;
+            color: white;
+            font-weight: 600;
+            border-radius: 8px;
+            width: 100%;
+            padding: 10px;
+            transition: opacity 0.2s;
+        }
 
-      .biobox{
-        width: 30%;
-       height: 160px;
-       margin-top: 10px;
-       border: black 2px solid;
-       border-radius: 6px;
-       
-    }
-
-   .picbtn2{
-     
-        margin-top: 30px;
-        width: 20%;
-        height: 40px;
-        background-color: rgb(61, 61, 207);
-        color: white;
-        border-radius: 10px;
-        border: 1px solid  rgb(61, 61, 207)
-        
-    }
-
+        .insta-btn:hover {
+            opacity: 0.9;
+        }
 /* profile-end  */
 
 .search{
